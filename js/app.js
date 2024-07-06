@@ -20,7 +20,7 @@ function comprarPista(qtd) {
     } else {
         qtdPista = qtdPista - qtd;
         document.getElementById(`qtd-pista`).textContent= qtdPista;
-        alert(`Compra realiza com sucesso!`);
+        alert(`Compra realizada com sucesso!`);
     }
 }
 function comprarSuperior(qtd) {
@@ -30,7 +30,7 @@ function comprarSuperior(qtd) {
     } else {
         qtdSuperior = qtdSuperior - qtd;
         document.getElementById(`qtd-superior`).textContent= qtdSuperior;
-        alert(`Compra realiza com sucesso!`);
+        alert(`Compra realizada com sucesso!`);
     }
 }
 function comprarInferior(qtd) {
@@ -40,6 +40,6 @@ function comprarInferior(qtd) {
     } else {
         qtdInferior = qtdInferior - qtd;
         document.getElementById(`qtd-inferior`).textContent= qtdInferior;
-        alert(`Compra realiza com sucesso!`);
+        alert(`Compra realizada com sucesso!`);
     }
 }
